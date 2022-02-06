@@ -52,7 +52,7 @@ function App() {
       <div className="container mt-5">
         <div className="mb-5">
           <h2 className="is-size-4">Software Portfolio</h2>
-          <p>I've had the privelege to work on the following software systems.</p>
+          <p>I've had the privilege to work on the following software systems.</p>
         </div>
         {chunk(portfolioSystems,4).map(c => (
           <div className="columns">
