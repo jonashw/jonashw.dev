@@ -3,7 +3,7 @@ import {faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-ic
 import React from 'react';
 import './Contact.css';
 
-export default () => (
+const Contact = () => (
 	<div className="container text-center">
 		<img src="/jw-512x512.png" style={{width:'128px', borderRadius:'50%'}} alt="Portrait of Jon Ash Wilson" />
 		<div className="mt-3">
@@ -27,3 +27,5 @@ export default () => (
 		</div>
 	</div>
 );
+
+export default Contact;

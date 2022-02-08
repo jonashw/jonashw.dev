@@ -5,3 +5,11 @@
 		object-position: top;
 		border-bottom:1px solid #ddd;
 	}
+
+	.card-footer {
+		background: unset !important;
+	}
+
+	.card {
+		cursor: pointer;
+	}
