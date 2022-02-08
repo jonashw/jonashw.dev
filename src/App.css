@@ -1,9 +1,0 @@
-.social-icons > .icon {
-  transform:scale(100%);
-  transition-duration: 200ms;
-}
-
-.social-icons > .icon:hover {
-  transform:scale(120%);
-  transition-duration: 200ms;
-}

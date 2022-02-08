@@ -1,8 +1,8 @@
 import './App.css';
-import 'bulma/css/bulma.css';
 import React from 'react';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function App() {

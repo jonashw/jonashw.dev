@@ -1,0 +1,14 @@
+.social-icons > .icon {
+  transform:scale(100%);
+  transition-duration: 200ms;
+	color:#333;
+}
+
+.social-icons > .icon:hover {
+  transform:scale(120%);
+	-webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition-duration: 200ms;
+	color:#666;
+}
