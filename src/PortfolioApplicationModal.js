@@ -46,7 +46,7 @@ const PortfolioApplicationModal = ({system, setSystem}) => {
 							<button type="button" className="btn-close" aria-label="Close" onClick={close}></button>
 						</div>
 						<div className="modal-body">
-							<h6 className="text-muted mb-4">{system.Subtitle}</h6>
+							<h6 className="mb-4">{system.Subtitle}</h6>
 							<table className="table table-bordered">
 								<tbody>
 									{facets.map(([label,terms]) => 
