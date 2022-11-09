@@ -6,11 +6,11 @@ type PortfolioSystem = {
 	URL: string | undefined;
 	Description: string;
 	Status: string;
-	Database: string[];
+	Database: string[] | undefined;
 	Framework: string[];
 	Platforms: string[];
 	Languages: string[];
-	"Integrated Systems": string[];
+	"Integrated Systems": string[] | undefined;
 	Screenshots: {
 		url: string;
 		title: string;

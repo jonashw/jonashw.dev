@@ -25,13 +25,22 @@ const PortfolioApplicationModal = (
 		}
 	}, [system]);
 
+	React.useEffect(() => {
+		if(!system){
+			return;
+		}
+		let e = {systemTitle: system.Title};
+		window.gtag("event","portfolio_view", e);
+		console.log('GA',e);
+	}, [system]);
+
 	const facetProperties: [string, (ps: PortfolioSystem) => string[]] [] =
 		[
 			["Owner", s => [s.Organization]],
 			["System Status", s => [s.Status]],
 			["My Roles", s => s.Role],
-			["Databases", s => s.Database],
-			["Integrated Systems", s => s["Integrated Systems"]]
+			["Databases", s => s.Database || []],
+			["Integrated Systems", s => s["Integrated Systems"] || []]
 		];
 
 	const facets = !system ? [] : (
@@ -66,7 +75,7 @@ const PortfolioApplicationModal = (
 											<th style={{width:'200px'}}>{label}</th>
 											<td>
 												{terms.map(t =>
-													<span className="badge bg-light text-dark ms-2">
+													<span className="badge bg-light text-dark ms-2" key={t}>
 														{t}
 													</span>
 												)}
