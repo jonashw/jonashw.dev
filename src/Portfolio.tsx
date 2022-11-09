@@ -1,11 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
 import PortfolioApplicationModal from './PortfolioApplicationModal';
+import { PortfolioSystem } from './PortfolioSystem';
 
 function Portfolio() {
-  const [portfolioSystems,setPortfolioSystems] = React.useState([]);
-
-	const [activeSystem, setActiveSystem] = React.useState(undefined);
+  const [portfolioSystems,setPortfolioSystems] = React.useState<PortfolioSystem[]>([]);
+	const [activeSystem, setActiveSystem] = React.useState<PortfolioSystem | undefined>(undefined);
 
   React.useEffect(() => {
     fetch('https://storage.googleapis.com/jonashw-dev-personal-website-public-data/portfolio-systems.json')

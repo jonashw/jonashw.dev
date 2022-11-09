@@ -1,7 +1,16 @@
 import React from 'react';
 import './PortfolioApplicationModal.css';
+import { PortfolioSystem } from './PortfolioSystem';
 
-const PortfolioApplicationModal = ({system, setSystem}) => {
+const PortfolioApplicationModal = (
+	{
+		system,
+		setSystem
+	} : {
+		system: PortfolioSystem | undefined,
+		setSystem: (s: PortfolioSystem | undefined) => void
+	}
+) => {
 	const close = () => setSystem(undefined);
 	React.useLayoutEffect(() => {
 		let b = document.body;
@@ -16,20 +25,23 @@ const PortfolioApplicationModal = ({system, setSystem}) => {
 		}
 	}, [system]);
 
-	const facets = !system ? [] : (
+	const facetProperties: [string, (ps: PortfolioSystem) => string[]] [] =
 		[
-			["Owner", "Organization"],
-			["System Status", "Status"],
-			["My Roles", "Role"],
-			["Databases", "Database"],
-			["Integrated Systems", "Integrated Systems"]
-		]
-			.map(([label, key]) => {
-				let value = system[key];
-				let terms = Array.isArray(value) ? value : [value];
-				return [label, terms.filter(t => !!t)];
+			["Owner", s => [s.Organization]],
+			["System Status", s => [s.Status]],
+			["My Roles", s => s.Role],
+			["Databases", s => s.Database],
+			["Integrated Systems", s => s["Integrated Systems"]]
+		];
+
+	const facets = !system ? [] : (
+		facetProperties
+			.map(([label, getter]) => {
+				let terms = getter(system);
+				terms = terms.filter(t => !!t);
+				return {label, terms};
 			})
-			.filter(([label, terms]) => terms.length > 0)
+			.filter(({terms}) => terms.length > 0)
 	);
 
 	return <>
@@ -49,7 +61,7 @@ const PortfolioApplicationModal = ({system, setSystem}) => {
 							<h6 className="mb-4">{system.Subtitle}</h6>
 							<table className="table table-bordered">
 								<tbody>
-									{facets.map(([label,terms]) => 
+									{facets.map(({label,terms}) => 
 										<tr key={label}>
 											<th style={{width:'200px'}}>{label}</th>
 											<td>

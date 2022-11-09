@@ -4,8 +4,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-
-function App() {
+const App = () => {
   return (
     <div style={{
       background:'#ebeef1',
@@ -17,6 +16,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
