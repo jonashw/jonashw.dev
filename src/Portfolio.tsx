@@ -17,11 +17,12 @@ function Portfolio() {
       "-"
     ); //set cache granularity to something less than *forever*.
     fetch(
-      "https://storage.googleapis.com/jonashw-dev-personal-website-public-data/portfolio-systems.json?now=" +
+      "https://jonashwdev.blob.core.windows.net/jonashw-dev-public-website-data/portfolio-systems.json?now=" +
         now
     )
       .then((r) => r.json())
       .then((records) => {
+        console.log({records});
         setPortfolioSystems(records);
       });
   }, []);
@@ -50,7 +51,7 @@ function Portfolio() {
               }}
             >
               {(
-                s.Screenshots || [
+                s.screenshots || [
                   { url: "https://bulma.io/images/placeholders/1280x960.png" },
                 ]
               )
@@ -58,14 +59,14 @@ function Portfolio() {
                 .map((ss, i) => (
                   <img
                     src={ss.url}
-                    alt={"Screenshot of " + s.Title}
+                    alt={"Screenshot of " + s.title}
                     className="card-img-top"
                     key={i}
                   />
                 ))}
               <div className="card-body">
-                <h5 className="card-title">{s.Title}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{s.Subtitle}</h6>
+                <h5 className="card-title">{s.title}</h5>
+                <h6 className="card-subtitle mb-2 text-muted">{s.subtitle}</h6>
               </div>
             </div>
           </div>

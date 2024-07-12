@@ -29,18 +29,18 @@ const PortfolioApplicationModal = (
 		if(!system){
 			return;
 		}
-		let e = {systemTitle: system.Title};
+		let e = {systemTitle: system.title};
 		window.gtag("event","portfolio_view", e);
 		console.log('GA',e);
 	}, [system]);
 
 	const facetProperties: [string, (ps: PortfolioSystem) => string[]] [] =
 		[
-			["Owner", s => [s.Organization]],
-			["System Status", s => [s.Status]],
-			["My Roles", s => s.Role],
-			["Databases", s => s.Database || []],
-			["Integrated Systems", s => s["Integrated Systems"] || []]
+			["Owner", s => [s.organization]],
+			["System Status", s => [s.status]],
+			["My Roles", s => s.role],
+			["Databases", s => s.database || []],
+			["Integrated Systems", s => s["integrated Systems"] || []]
 		];
 
 	const facets = !system ? [] : (
@@ -63,11 +63,11 @@ const PortfolioApplicationModal = (
 				<div className="modal-dialog modal-lg" onClick={e => e.stopPropagation()}>
 					<div className="modal-content">
 						<div className="modal-header">
-							<h5 className="modal-title">{system.Title}</h5>
+							<h5 className="modal-title">{system.title}</h5>
 							<button type="button" className="btn-close" aria-label="Close" onClick={close}></button>
 						</div>
 						<div className="modal-body">
-							<h6 className="mb-4">{system.Subtitle}</h6>
+							<h6 className="mb-4">{system.subtitle}</h6>
 							<table className="table table-bordered">
 								<tbody>
 									{facets.map(({label,terms}) => 
@@ -86,16 +86,16 @@ const PortfolioApplicationModal = (
 							</table>
 							
 							<p>
-								{system.Description}
+								{system.description}
 							</p>
 
-							{(system.Screenshots || [{ url: "https://bulma.io/images/placeholders/1280x960.png" }]).slice(0, 1).map((ss,i) => (
-								<img src={ss.url} alt={"Screenshot of " + system.Title} key={i} className="img-fluid" style={{border:'1px solid #ddd'}}/>
+							{(system.screenshots || [{ url: "https://bulma.io/images/placeholders/1280x960.png" }]).map((ss,i) => (
+								<img src={ss.url} alt={"Screenshot of " + system.title} key={i} className="img-fluid" style={{border:'1px solid #ddd'}}/>
 							))}
 						</div>
-						{!!system.URL && (
+						{!!system.url && (
 							<div className="modal-footer text-muted d-grid">
-								<a href={system.URL} className="btn btn-success btn-block" target="_blank" rel="noreferrer">
+								<a href={system.url} className="btn btn-success btn-block" target="_blank" rel="noreferrer">
 									View Application
 								</a>
 							</div>
