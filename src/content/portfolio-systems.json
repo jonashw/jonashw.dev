@@ -1,0 +1,522 @@
+[
+  {
+    "slug": "ucanr-integrated-web-platform",
+    "title": "UCANR Integrated Web Platform",
+    "subtitle": "Modern cloud-hosted CMS to replace UCANR Site Builder",
+    "organization": "UCANR",
+    "status": "In Development",
+    "role": [
+      "Business Analyst",
+      "Architect"
+    ],
+    "url": "https://iwp.ucanr.edu",
+    "database": [
+      "MySQL",
+      "Oracle"
+    ],
+    "framework": [
+      "Drupal"
+    ],
+    "platforms": [
+      "Azure"
+    ],
+    "languages": [
+      "PHP",
+      "PL/SQL",
+      "JavaScript"
+    ],
+    "integrated Systems": [
+      "YouTube",
+      "PeopleSoft HR",
+      "Cybersource Payment Platform",
+      "Blackbaud Raiser's Edge"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/ucanr-integrated-web-platform-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "debtwatch-2-0",
+    "title": "DebtWatch 2.0",
+    "subtitle": "Powerful Views of California Public Debt (OLAP system)",
+    "organization": "California State Treasurer's Office",
+    "status": "Live",
+    "role": [
+      "Developer",
+      "Designer",
+      "Architect"
+    ],
+    "url": "https://debtwatch.treasurer.ca.gov/",
+    "description": "State and local government entities in California have issued more than $2 trillion in debt over the last four decades to build critical infrastructure, provide services and refinance outstanding debt to save taxpayer money. DebtWatch gives you the access and tools to explore these issuances, or borrowings, at a high level or focus in on the details.",
+    "database": [
+      "MS SQL Server"
+    ],
+    "framework": [
+      "Azure Function App",
+      "React"
+    ],
+    "platforms": [
+      "Azure"
+    ],
+    "languages": [
+      "C#",
+      "TSQL",
+      "Typescript",
+      "CSS",
+      "HTML"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/debtwatch-2-0-1.png"
+      },
+      {
+        "url": "/portfolio/debtwatch-2-0-2.png"
+      }
+    ]
+  },
+  {
+    "slug": "4honline-record-book",
+    "title": "4HOnline Record Book",
+    "subtitle": "Easy record keeping for 4-H youth",
+    "organization": "RegistrationMax, LLC",
+    "status": "Retired",
+    "role": [
+      "Business Analyst",
+      "Developer",
+      "Architect",
+      "Designer"
+    ],
+    "database": [
+      "MS SQL Server"
+    ],
+    "framework": [
+      "Giraffe",
+      "ASP.NET Core"
+    ],
+    "languages": [
+      "F#",
+      "TSQL",
+      "JavaScript",
+      "HTML",
+      "SCSS"
+    ],
+    "library": "jQuery",
+    "integrated Systems": [
+      "4HOnline"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/4honline-record-book-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "caltrans-level-of-service-los",
+    "title": "Caltrans Level of Service (LOS)",
+    "subtitle": "Transactional and Analytical system to support the assurance of quality for California's roads and highways",
+    "organization": "Caltrans",
+    "status": "In Development",
+    "role": [
+      "Architect"
+    ],
+    "description": "Under the Level of Service (LOS) program, Caltrans inspection teams drive and sometimes walk along random one-mile segments of the SHS. In most of the Department’s 12 regional districts, approximately 20 percent of the total centerline miles of state highway are evaluated. The highest LOS score that any segment can receive, for any of the 35 evaluated criteria, is 100.\n\nThe purpose of the program is to help Caltrans’ Maintenance division establish its priorities for the fiscal year — where and how best to allocate available resources. The division’s 2016 Strategic Management Plan (SMP) identifies 10 high-priority “maintenance activities” on those mile-long segments that each receive an LOS score and determine where best to focus repair efforts. The management plan sets statewide LOS score goals of 70 to 90 for each activity. Those goals are to be achieved by 2021.\n\nThe top 10 priority activities listed in the report are pavement, bridge maintenance, guardrail repair, striping maintenance, sign maintenance, traffic signals maintenance, roadway lighting maintenance, tree/brush encroachment prevention, litter/debris removal and graffiti removal.",
+    "platforms": [
+      "ESRI ArcGIS Server"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/caltrans-level-of-service-los-1.jpg"
+      },
+      {
+        "url": "/portfolio/caltrans-level-of-service-los-2.png"
+      }
+    ]
+  },
+  {
+    "slug": "onlinestable-com",
+    "title": "OnlineStable.com",
+    "subtitle": "The online solution to your animal-related record-keeping needs.",
+    "organization": "RegistrationMax, LLC",
+    "status": "Retired",
+    "role": [
+      "Developer",
+      "Designer"
+    ],
+    "database": [
+      "MS SQL Server"
+    ],
+    "framework": [
+      "ASP.NET MVC"
+    ],
+    "languages": [
+      "C#",
+      "TSQL",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "library": "jQuery",
+    "integrated Systems": [
+      "Facebook"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/onlinestable-com-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "caltrans-encroachment-permit-system-ceps",
+    "title": "Caltrans Encroachment Permit System (CEPS)",
+    "subtitle": "Apply for, pay for, and manage encroachment permits, which allow special use of the Caltrans right of way by members of the public",
+    "organization": "Caltrans",
+    "status": "Live",
+    "role": [
+      "Developer",
+      "Designer"
+    ],
+    "url": "https://ceps.dot.ca.gov/",
+    "description": " An encroachment permit must be obtained for all proposed activities related to the placement of encroachments within, under, or over the State highway rights of way. Some examples of work requiring an encroachment permit are utilities, excavations, encroachment renewals, advertisements (when allowed by statute), vegetation planting or trimming, surveys, mailboxes, driveways, installation or removal of tire chains for compensation, special events, and commercial filming activities.\n\nCEPS provides you the opportunity to take advantage of the following features to make filing your Encroachment Permit Application Packages (EPAP) easier and more efficient:\n\n- Real-time tracking of your EPAP\n- Online access to view and edit your EPAP documents in one place\n- Online payments",
+    "database": [
+      "Oracle"
+    ],
+    "framework": [
+      "ASP.NET Core"
+    ],
+    "platforms": [
+      "Infor Public Sector"
+    ],
+    "languages": [
+      "C#",
+      "VB.NET"
+    ],
+    "integrated Systems": [
+      "Adobe Experience Manager"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/caltrans-encroachment-permit-system-ceps-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "california-4-h-financial-reporting-system",
+    "title": "California 4-H Financial Reporting System",
+    "subtitle": "Custom accounting system for California 4-H",
+    "organization": "UCANR",
+    "status": "Live",
+    "role": [
+      "Business Analyst",
+      "Developer",
+      "Project Manager",
+      "Quality Assurance",
+      "Designer"
+    ],
+    "url": "http://4h.ucanr.edu/Resources/Financial/",
+    "database": [
+      "MS SQL Server"
+    ],
+    "languages": [
+      "Adobe ColdFusion",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "library": "jQuery",
+    "integrated Systems": [
+      "4HOnline"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/california-4-h-financial-reporting-system-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "california-4-h-record-book",
+    "title": "California 4-H Record Book",
+    "subtitle": "Online record keeping and communication tool for 4-H youth.",
+    "organization": "UCANR",
+    "status": "Retired",
+    "role": [
+      "Designer",
+      "Quality Assurance",
+      "Business Analyst"
+    ],
+    "description": "Each year, the majority of 4-H members have the opportunity to complete a “Record Book” which is a summary of the year’s activities, including expense reports, before and after project reports, narratives and events attended. It is an extremely important, historically significant aspect of a 4-H Member’s time in the program.  This application aimed to transform the paper-based Record Book experience, into a digital experience.",
+    "database": [
+      "MS SQL Server"
+    ],
+    "languages": [
+      "Adobe ColdFusion"
+    ],
+    "library": "jQuery",
+    "integrated Systems": [
+      "4HOnline"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/california-4-h-record-book-1.png"
+      },
+      {
+        "url": "/portfolio/california-4-h-record-book-2.png"
+      }
+    ]
+  },
+  {
+    "slug": "igor-s-pest-vulnerability-matrix",
+    "title": "Igor's Pest Vulnerability Matrix",
+    "subtitle": "Avoid catastrophic vulnerabilities to your urban forest.",
+    "organization": "UCANR",
+    "status": "Live",
+    "role": [
+      "Business Analyst",
+      "Project Manager",
+      "Developer",
+      "Architect",
+      "Designer"
+    ],
+    "url": "https://ucanr.edu/sites/Igor/PVM_Pest_Vulnerability_Matrix/",
+    "database": [
+      "Airtable"
+    ],
+    "framework": [
+      "React"
+    ],
+    "platforms": [
+      "AWS"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/igor-s-pest-vulnerability-matrix-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "wucols-iv-plant-search-database",
+    "title": "WUCOLS IV Plant Search Database",
+    "subtitle": "Create a landscape plan based on plant water use within your city/region.",
+    "organization": "UCANR",
+    "status": "Live",
+    "role": [
+      "Business Analyst",
+      "Project Manager",
+      "Developer"
+    ],
+    "url": "https://ucanr.edu/sites/WUCOLS/Plant_Search/",
+    "database": [
+      "MS SQL Server"
+    ],
+    "languages": [
+      "Adobe ColdFusion",
+      "JavaScript",
+      "CSS",
+      "TSQL"
+    ],
+    "library": "jQuery",
+    "screenshots": [
+      {
+        "url": "/portfolio/wucols-iv-plant-search-database-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "fairentry-com",
+    "title": "FairEntry.com",
+    "subtitle": "Flexible Fair Registration for counties and states",
+    "organization": "RegistrationMax, LLC",
+    "status": "Live",
+    "role": [
+      "Business Analyst",
+      "Developer",
+      "Quality Assurance",
+      "Designer"
+    ],
+    "url": "https://fairentry.com",
+    "database": [
+      "MS SQL Server"
+    ],
+    "framework": [
+      "ASP.NET MVC",
+      "AngularJS"
+    ],
+    "languages": [
+      "C#",
+      "TSQL",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SCSS"
+    ],
+    "library": "jQuery",
+    "integrated Systems": [
+      "4HOnline"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/fairentry-com-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "wucols-iv-plant-search-database-v2-0",
+    "title": "WUCOLS IV Plant Search Database v2.0",
+    "subtitle": "More easily create a landscape plan based on plant water use within your city/region.",
+    "organization": "UCANR",
+    "status": "In Development",
+    "role": [
+      "Business Analyst",
+      "Project Manager",
+      "Developer",
+      "Architect",
+      "Designer"
+    ],
+    "url": "https://wucols-plant-search-database-ui.s3.us-west-1.amazonaws.com/index.html",
+    "database": [
+      "Airtable"
+    ],
+    "framework": [
+      "React"
+    ],
+    "platforms": [
+      "AWS"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/wucols-iv-plant-search-database-v2-0-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "simple-faceted-search",
+    "title": "Simple Faceted Search",
+    "subtitle": "Create a faceted search from your hosted JSON data on the fly with this simple UI.",
+    "organization": "Personal",
+    "status": "Live",
+    "role": [
+      "Architect",
+      "Developer",
+      "Quality Assurance",
+      "Designer"
+    ],
+    "url": "https://faceted-search.jonashw.dev/",
+    "framework": [
+      "React"
+    ],
+    "platforms": [
+      "Netlify"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/simple-faceted-search-1.png"
+      },
+      {
+        "url": "/portfolio/simple-faceted-search-2.png"
+      }
+    ]
+  },
+  {
+    "slug": "ucanr-site-builder",
+    "title": "UCANR Site Builder",
+    "subtitle": "Custom CMS with a simple Site-Page-Asset content model.",
+    "organization": "UCANR",
+    "status": "Live",
+    "role": [
+      "Quality Assurance",
+      "Business Analyst",
+      "Developer"
+    ],
+    "url": "https://ucanr.edu\n",
+    "database": [
+      "MS SQL Server"
+    ],
+    "languages": [
+      "Adobe ColdFusion"
+    ],
+    "library": "jQuery",
+    "screenshots": [
+      {
+        "url": "/portfolio/ucanr-site-builder-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "ucanr-project-board",
+    "title": "UCANR Project Board",
+    "subtitle": "Integrated federal reporting and Academic Merit & Promotion",
+    "organization": "UCANR",
+    "status": "Live",
+    "role": [
+      "Developer",
+      "Project Manager",
+      "Business Analyst",
+      "Architect"
+    ],
+    "url": "https://projectboard.ucanr.edu",
+    "database": [
+      "MS SQL Server"
+    ],
+    "framework": [
+      "ASP.NET Core",
+      "Angular"
+    ],
+    "languages": [
+      "C#",
+      "TSQL",
+      "F#",
+      "HTML",
+      "CSS"
+    ],
+    "integrated Systems": [
+      "Interfolio ByCommittee"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/ucanr-project-board-1.png"
+      }
+    ]
+  },
+  {
+    "slug": "ranked-choice-voting-simulator",
+    "title": "Ranked Choice Voting Simulator",
+    "subtitle": "Allows you simulate your own instant run-off elections.",
+    "organization": "Personal",
+    "status": "Live",
+    "role": [
+      "Architect",
+      "Developer",
+      "Quality Assurance",
+      "Designer"
+    ],
+    "url": "https://ranked-choice-voting-simulator.jonashw.dev/",
+    "description": "Experiment with this simulator to better understand Ranked Choice Voting (RCV) and instant run-off elections for single-winner races. ",
+    "database": [
+      "Firebase Firestore"
+    ],
+    "framework": [
+      "React"
+    ],
+    "platforms": [
+      "Netlify"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "screenshots": [
+      {
+        "url": "/portfolio/ranked-choice-voting-simulator-1.png"
+      }
+    ]
+  }
+]
