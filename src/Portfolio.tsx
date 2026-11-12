@@ -2,30 +2,14 @@ import React from "react";
 import "./Portfolio.css";
 import PortfolioApplicationModal from "./PortfolioApplicationModal";
 import { PortfolioSystem } from "./PortfolioSystem";
+import portfolioData from "./content/portfolio-systems.json";
 
 function Portfolio() {
-  const [portfolioSystems, setPortfolioSystems] = React.useState<
-    PortfolioSystem[]
-  >([]);
+  const portfolioSystems = portfolioData as PortfolioSystem[];
   const [activeSystem, setActiveSystem] = React.useState<
     PortfolioSystem | undefined
   >(undefined);
 
-  React.useEffect(() => {
-    let d = new Date();
-    let now = [d.getFullYear(), d.getMonth(), d.getDay(), d.getHours()].join(
-      "-"
-    ); //set cache granularity to something less than *forever*.
-    fetch(
-      "https://jonashwdev.blob.core.windows.net/jonashw-dev-public-website-data/portfolio-systems.json?now=" +
-        now
-    )
-      .then((r) => r.json())
-      .then((records) => {
-        console.log({records});
-        setPortfolioSystems(records);
-      });
-  }, []);
 
   return (
     <div className="container">
