@@ -5,7 +5,15 @@ import { PortfolioSystem } from "./PortfolioSystem";
 import portfolioData from "./content/portfolio-systems.json";
 
 function Portfolio() {
-  const portfolioSystems = portfolioData as PortfolioSystem[];
+  // Optional hidden filter: /?audience=civic-tech shows only entries tagged for that audience.
+  const audience = new URLSearchParams(window.location.search)
+    .get("audience")
+    ?.trim()
+    .toLowerCase();
+  const allSystems = portfolioData as PortfolioSystem[];
+  const portfolioSystems = audience
+    ? allSystems.filter((s) => (s.audience || []).includes(audience))
+    : allSystems;
   const [activeSystem, setActiveSystem] = React.useState<
     PortfolioSystem | undefined
   >(undefined);
@@ -18,6 +26,12 @@ function Portfolio() {
         <p>
           I've had the privilege to work on the following software applications.
         </p>
+        {audience && (
+          <p className="text-muted small">
+            Showing {portfolioSystems.length} of {allSystems.length}.{" "}
+            <a href={window.location.pathname}>Show all</a>
+          </p>
+        )}
       </div>
 
       <PortfolioApplicationModal
