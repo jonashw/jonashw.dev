@@ -11,10 +11,10 @@ const Contact = () => (
 				Jon Ash Wilson
 			</div>
 			<div>
-				Software Architect who builds with AI
+				Software Architect
 			</div>
-			<div className="text-muted mt-1">
-				18 years designing and shipping data-heavy systems for state agencies, universities, and SaaS products
+			<div className="text-muted mt-2 mx-auto" style={{maxWidth:'34em'}}>
+				I help mission-driven organizations make sound technology decisions, then build what's worth building. Lately, that includes deciding where AI really earns its place.
 			</div>
 		</div>
 		<div className="h1 social-icons mt-3">
