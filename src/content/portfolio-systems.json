@@ -5,7 +5,8 @@
     "subtitle": "Modern cloud-hosted CMS to replace UCANR Site Builder",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "In Development",
     "role": [
@@ -46,7 +47,8 @@
     "subtitle": "Powerful Views of California Public Debt (OLAP system)",
     "organization": "California State Treasurer's Office",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
@@ -127,7 +129,8 @@
     "subtitle": "Transactional and Analytical system to support the assurance of quality for California's roads and highways",
     "organization": "Caltrans",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "In Development",
     "role": [
@@ -188,7 +191,8 @@
     "subtitle": "Apply for, pay for, and manage encroachment permits, which allow special use of the Caltrans right of way by members of the public",
     "organization": "Caltrans",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
@@ -225,7 +229,8 @@
     "subtitle": "Custom accounting system for California 4-H",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
@@ -261,7 +266,8 @@
     "subtitle": "Online record keeping and communication tool for 4-H youth.",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Retired",
     "role": [
@@ -295,7 +301,8 @@
     "subtitle": "Avoid catastrophic vulnerabilities to your urban forest.",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
@@ -330,7 +337,8 @@
     "subtitle": "Create a landscape plan based on plant water use within your city/region.",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
@@ -402,7 +410,8 @@
     "subtitle": "More easily create a landscape plan based on plant water use within your city/region.",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "In Development",
     "role": [
@@ -471,7 +480,8 @@
     "subtitle": "Custom CMS with a simple Site-Page-Asset content model.",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
@@ -499,7 +509,8 @@
     "subtitle": "Integrated federal reporting and Academic Merit & Promotion",
     "organization": "UCANR",
     "audience": [
-      "professional"
+      "professional",
+      "civic-tech"
     ],
     "status": "Live",
     "role": [
