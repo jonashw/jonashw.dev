@@ -4,6 +4,10 @@
     "title": "UCANR Integrated Web Platform",
     "subtitle": "Modern cloud-hosted CMS to replace UCANR Site Builder",
     "organization": "UCANR",
+    "sector": [
+      "public-university"
+    ],
+    "engagement": "in-house",
     "status": "In Development",
     "role": [
       "Business Analyst",
@@ -42,6 +46,10 @@
     "title": "DebtWatch 2.0",
     "subtitle": "Powerful Views of California Public Debt (OLAP system)",
     "organization": "California State Treasurer's Office",
+    "sector": [
+      "state-government"
+    ],
+    "engagement": "client-work",
     "status": "Live",
     "role": [
       "Developer",
@@ -81,6 +89,10 @@
     "title": "4HOnline Record Book",
     "subtitle": "Easy record keeping for 4-H youth",
     "organization": "RegistrationMax, LLC",
+    "sector": [
+      "community-programs"
+    ],
+    "engagement": "saas-product",
     "status": "Retired",
     "role": [
       "Business Analyst",
@@ -117,6 +129,10 @@
     "title": "Caltrans Level of Service (LOS)",
     "subtitle": "Transactional and Analytical system to support the assurance of quality for California's roads and highways",
     "organization": "Caltrans",
+    "sector": [
+      "state-government"
+    ],
+    "engagement": "client-work",
     "status": "In Development",
     "role": [
       "Architect"
@@ -139,6 +155,10 @@
     "title": "OnlineStable.com",
     "subtitle": "The online solution to your animal-related record-keeping needs.",
     "organization": "RegistrationMax, LLC",
+    "sector": [
+      "community-programs"
+    ],
+    "engagement": "saas-product",
     "status": "Retired",
     "role": [
       "Developer",
@@ -172,6 +192,10 @@
     "title": "Caltrans Encroachment Permit System (CEPS)",
     "subtitle": "Apply for, pay for, and manage encroachment permits, which allow special use of the Caltrans right of way by members of the public",
     "organization": "Caltrans",
+    "sector": [
+      "state-government"
+    ],
+    "engagement": "client-work",
     "status": "Live",
     "role": [
       "Developer",
@@ -206,6 +230,11 @@
     "title": "California 4-H Financial Reporting System",
     "subtitle": "Custom accounting system for California 4-H",
     "organization": "UCANR",
+    "sector": [
+      "public-university",
+      "community-programs"
+    ],
+    "engagement": "in-house",
     "status": "Live",
     "role": [
       "Business Analyst",
@@ -239,6 +268,11 @@
     "title": "California 4-H Record Book",
     "subtitle": "Online record keeping and communication tool for 4-H youth.",
     "organization": "UCANR",
+    "sector": [
+      "public-university",
+      "community-programs"
+    ],
+    "engagement": "in-house",
     "status": "Retired",
     "role": [
       "Designer",
@@ -270,6 +304,10 @@
     "title": "Igor's Pest Vulnerability Matrix",
     "subtitle": "Avoid catastrophic vulnerabilities to your urban forest.",
     "organization": "UCANR",
+    "sector": [
+      "public-university"
+    ],
+    "engagement": "in-house",
     "status": "Live",
     "role": [
       "Business Analyst",
@@ -302,6 +340,10 @@
     "title": "WUCOLS IV Plant Search Database",
     "subtitle": "Create a landscape plan based on plant water use within your city/region.",
     "organization": "UCANR",
+    "sector": [
+      "public-university"
+    ],
+    "engagement": "in-house",
     "status": "Live",
     "role": [
       "Business Analyst",
@@ -330,6 +372,10 @@
     "title": "FairEntry.com",
     "subtitle": "Flexible Fair Registration for counties and states",
     "organization": "RegistrationMax, LLC",
+    "sector": [
+      "community-programs"
+    ],
+    "engagement": "saas-product",
     "status": "Live",
     "role": [
       "Business Analyst",
@@ -368,6 +414,10 @@
     "title": "WUCOLS IV Plant Search Database v2.0",
     "subtitle": "More easily create a landscape plan based on plant water use within your city/region.",
     "organization": "UCANR",
+    "sector": [
+      "public-university"
+    ],
+    "engagement": "in-house",
     "status": "In Development",
     "role": [
       "Business Analyst",
@@ -400,6 +450,10 @@
     "title": "Simple Faceted Search",
     "subtitle": "Create a faceted search from your hosted JSON data on the fly with this simple UI.",
     "organization": "Personal",
+    "sector": [
+      "any"
+    ],
+    "engagement": "personal",
     "status": "Live",
     "role": [
       "Architect",
@@ -431,6 +485,10 @@
     "title": "UCANR Site Builder",
     "subtitle": "Custom CMS with a simple Site-Page-Asset content model.",
     "organization": "UCANR",
+    "sector": [
+      "public-university"
+    ],
+    "engagement": "in-house",
     "status": "Live",
     "role": [
       "Quality Assurance",
@@ -456,6 +514,10 @@
     "title": "UCANR Project Board",
     "subtitle": "Integrated federal reporting and Academic Merit & Promotion",
     "organization": "UCANR",
+    "sector": [
+      "public-university"
+    ],
+    "engagement": "in-house",
     "status": "Live",
     "role": [
       "Developer",
@@ -491,7 +553,11 @@
     "slug": "ranked-choice-voting-simulator",
     "title": "Ranked Choice Voting Simulator",
     "subtitle": "Allows you simulate your own instant run-off elections.",
-    "organization": "Civic tech",
+    "organization": "Personal",
+    "sector": [
+      "general-public"
+    ],
+    "engagement": "personal",
     "status": "Live",
     "role": [
       "Architect",
