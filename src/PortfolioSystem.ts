@@ -3,8 +3,10 @@ type PortfolioSystem = {
 	title: string;
 	subtitle: string;
 	organization: string;
-	/** Who the entry is meant for, e.g. "professional" or "civic-tech". Never shown; used only to filter. */
-	audience?: string[];
+	/** Who the software serves, e.g. "state-government" or "any". Never shown; used only to filter. */
+	sector?: string[];
+	/** How the work came about: "client-work", "in-house", "saas-product" or "personal". Never shown; used only to filter. */
+	engagement?: string;
 	role: string[];
 	url: string | undefined;
 	description: string;

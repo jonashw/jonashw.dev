@@ -5,15 +5,18 @@ import { PortfolioSystem } from "./PortfolioSystem";
 import portfolioData from "./content/portfolio-systems.json";
 
 function Portfolio() {
-  // Optional hidden filter: /?audience=civic-tech shows only entries tagged for that audience.
-  const audience = new URLSearchParams(window.location.search)
-    .get("audience")
-    ?.trim()
-    .toLowerCase();
+  // Optional hidden filters: /?sector=state-government&engagement=client-work
+  // shows only matching entries. Neither facet is displayed on a card.
+  const params = new URLSearchParams(window.location.search);
+  const sector = params.get("sector")?.trim().toLowerCase();
+  const engagement = params.get("engagement")?.trim().toLowerCase();
+  const filtered = Boolean(sector || engagement);
   const allSystems = portfolioData as PortfolioSystem[];
-  const portfolioSystems = audience
-    ? allSystems.filter((s) => (s.audience || []).includes(audience))
-    : allSystems;
+  const portfolioSystems = allSystems.filter(
+    (s) =>
+      (!sector || (s.sector || []).includes(sector)) &&
+      (!engagement || s.engagement === engagement)
+  );
   const [activeSystem, setActiveSystem] = React.useState<
     PortfolioSystem | undefined
   >(undefined);
@@ -26,7 +29,7 @@ function Portfolio() {
         <p>
           I've had the privilege to work on the following software applications.
         </p>
-        {audience && (
+        {filtered && (
           <p className="text-muted small">
             Showing {portfolioSystems.length} of {allSystems.length}.{" "}
             <a href={window.location.pathname}>Show all</a>
